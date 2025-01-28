@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  background-color: #809eef;
+  color: black;
+  align-items: center;
+
+  & .card-title {
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  & img {
+    width: 100px;
+  }
+
+  & p {
+    margin: 0;
+    padding-block: 10px;
+  }
+}
